@@ -1,9 +1,11 @@
 NAGP Home Assignment – Kubernetes and DevOps.
-Blaze Rodrigues (blaze.rodrigues@nagarro.com)
+Blaze Rodrigues (blaze.rodrigues@nagarro.com).
 
 Link for the code repository:
 https://github.com/blazerodrigues/NAGP-KubernetesAndDevops
-All source code is uploaded to GitHub.
+
+Screen recording video link:
+https://drive.google.com/file/d/1d4zXTDg6anI1uGCwFlCmqYwox21ZMbCn/view?usp=sharing
 
 Requirement Understanding:
 We are required to design, containerize, and deploy a multi-tier architecture on Kubernetes involving one microservice and one database.
@@ -77,13 +79,12 @@ https://hub.docker.com/r/blazerodrigues/student-api
 
 URL for Service API tier to view the records from the backend:
 curl http://student.local:32517/students
+
 Note: student.local is mapped to 127.0.0.1 in C:\Windows\System32\drivers\etc\hosts file.
 <img width="959" height="140" alt="SS - API CURL" src="https://github.com/user-attachments/assets/719431ab-0f08-4e6f-8d18-478b0dbbe2e9" />
 
 Note: 32517 is the NodePort for Ingress Nginx Controller.
 <img width="829" height="67" alt="SS - Ingress NodePort" src="https://github.com/user-attachments/assets/3b6d4688-54f5-44f7-9200-c21e16ce5865" />
  
-Screen recording video link:
-https://drive.google.com/file/d/1d4zXTDg6anI1uGCwFlCmqYwox21ZMbCn/view?usp=sharing
 
 THANK YOU
